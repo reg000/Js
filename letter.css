@@ -1,0 +1,40 @@
+.letter {
+    display: none;
+    width: 30%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    background-color: linen;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.letter p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.letter .date {
+    font-style: italic;
+    font-size: large;
+    position: absolute;
+    bottom: 5%;
+    right: 6%;
+}
+
+.letter .sender {
+    font-style: italic;
+    font-size: larger;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.letter .letter-exit button {
+    bottom: 5%;
+    right: 10%;
+}

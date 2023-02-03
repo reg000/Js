@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+<!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Title && Favicon-->
+    <title>Quest for ****</title>
+
+<!--CSS links-->
+    <link rel="stylesheet" type="text/css" href="Pass_Box.css">
+    <link rel="stylesheet" type="text/css" href="character.css">
+    <link rel="stylesheet" type="text/css" href="letter.css">
+    <link rel="stylesheet" type="text/css" href="stops.css">
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <link rel="stylesheet" type="text/css" href="seal.css">
+</head>
+
+<body>
+
+<!--Map section-->
+    <div id="Map">
+
+<!--Character selection section-->
+        <div id="Character">
+            <div id="selection-list">
+                <div id="character-f"></div>
+                <div id="character-s"></div>
+                <div id="character-t"></div>
+            </div>
+        </div>
+
+<!--Stops & Letter section-->
+        <div id="stops">
+            <div class="letter">
+                <div class="letter-exit"><button id="button" name="button">X</button></div>
+            <div id="letter-data">
+                <div class="date">Date:18<sup>th</sup> May,2023</div>
+                <div class="sender">From:&#129388</div>
+                <div class="seal">
+
+                    <div class="body">  
+
+                        <div class="body-top">
+                  
+                          <div class="eye-left"></div>
+                  
+                          <div class="eye-right"></div>
+                  
+                          <div class="cheek-left">
+                            <div class="whiskers-left">
+                              <div class="whiskers-left-1"></div>
+                              <div class="whiskers-left-2"></div>
+                              <div class="whiskers-left-3"></div>
+                            </div>
+                          </div>
+                          <div class="cheek-right">
+                            <div class="whiskers-right">
+                              <div class="whiskers-right-1"></div>
+                              <div class="whiskers-right-2"></div>
+                              <div class="whiskers-right-3"></div>
+                            </div>
+                          </div>
+                          <div class="nose"></div>
+                          <div class="tongue"></div>
+                  
+                          <div class="hair-left"></div>
+                          <div class="hair-right"></div>
+                          
+                        </div>
+                      </div>
+                      <div class="water"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--Reset button-->
+        <div id="reset-journey"></div>
+
+
+
+<!--/>>>>>>>> Hidden content section <<<<<<<<-->
+
+<!--Password between 4th and 5th level-->
+    <div id="box">
+       Pass?
+          <div id="password">
+            <!-- <input type="text" id="password-input" name="text" required placeholder=" -" maxlength="4"> -->
+            <form method="get" class="password-input" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+
+                <input type="text" id="digit-1" name="digit-1" data-next="digit-2" maxlength="1"/>
+            
+                <span class="splitter">&ndash;</span>
+            
+                <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" maxlength="1"/>
+                <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" maxlength="1"/>
+                <input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" maxlength="1"/>
+            
+            </form>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
