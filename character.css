@@ -28,7 +28,6 @@
     }
     #character-f, #character-s, #character-t {
         display: flex;
-        /*flex: 1;*/
         height: 70%;
         width: 55%;
         align-items: center;
@@ -39,7 +38,6 @@
         border-radius: 20%;
         margin: 0 2%;
         transition: scale 0.3s , box-shadow 0.3s , border 0.3s , background-color 0.3s;
-        /*animation: carousel 1.5s infinite linear;*/
     }
     #character-f:hover, #character-s:hover, #character-t:hover {
        scale: 1.7 1.3;
