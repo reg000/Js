@@ -47,13 +47,13 @@
 
 #selection-list:has(#character-t:hover)  div:not(#character-t){
     scale: .75;
-    z-index: 0;
+    z-index: -1;
 }
   #selection-list:has(#character-s:hover)  div:not(#character-s){
     scale: .75;
-    z-index: 0;
+    z-index: -1;
 }
   #selection-list:has(#character-f:hover)  div:not(#character-f){
     scale: .75;
-    z-index: 0;
+    z-index: -1;
 }
