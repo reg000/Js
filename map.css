@@ -20,9 +20,13 @@
     border-radius: 10px;
     border: 4px double rgb(255, 255, 255);
     padding: 0.2%;
-    transition: background-color 0.3s color 0.3s;
+    transition: background-color 0.3s color 0.3s border-color 0.3s;
     bottom: 100%;
 }
+#reset-journey button:hover{
+    border-color: rgb(246, 0, 16);
+}
+
 #reset-journey button:active{
     color: rgb(184, 255, 17);
     background-color: red;
