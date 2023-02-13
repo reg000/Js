@@ -44,15 +44,7 @@
     border: 2px inset rgb(0, 0, 0);
     background-color: rgba(128, 117, 229, 0.7);
 }
-/*#character-f:hover ~ #character-s, #character-t{
-    scale: .75;
-}
-#character-s:hover ~ #character-t, #character-f{
-    scale: .75;
-}
-#character-t:hover ~ #character-f, #character-s{
-    scale: .75;
-}*/
+
 #selection-list:has(#character-t:hover)  div:not(#character-t){
     scale: .75;
     z-index: 0;
