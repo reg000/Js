@@ -1,5 +1,5 @@
 #Character {
-    display: none;
+    display: relative;
     position: absolute;
     align-self: center;
     top: 50%;
@@ -11,7 +11,21 @@
     border: 2px solid black;
     padding: 10px;
     border-radius: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+#Character.clicked {
+    animation-name: slide-out;
+}
+@keyframes slide-out {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(-50%, 200%);
+    }
+}
+
 #selection-list {
     display: flex;
     overflow: hidden;
@@ -25,7 +39,8 @@
     padding-right: 10%;
 }
 #character-f, #character-s, #character-t {
-    display: flex;
+    display: relative;
+    text-align: center;
     height: 70%;
     width: 55%;
     background-color: rgba(137, 126, 233, 0.5);
@@ -64,35 +79,53 @@
 }
 
 #char-f{
+    display: none;
     position: relative;
     height: 20px;
     width: 20px;
     background-color: rgb(197, 0, 0);
     border-radius: 100%;
-    display: inline-block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+    animation-name: charactermove;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 #char-s{
+    display: none;
     position: relative;
     height: 20px;
     width: 20px;
     background-color: rgb(0, 197, 30);
     border-radius: 100%;
-    display: inline-block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    animation-name: charactermove;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 #char-t{
+    display: none;
     position: relative;
     height: 20px;
     width: 20px;
     background-color: rgb(0, 62, 197);
     border-radius: 100%;
-    display: inline-block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    animation-name: charactermove;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+@keyframes charactermove{
+
 }
