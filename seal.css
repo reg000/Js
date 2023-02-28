@@ -20,9 +20,8 @@
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(74,133,190,0) 45%,rgba(30,87,153,0) 100%); 
     border-radius: 50%;
     z-index: 1;
-    animation: bob 8s infinite ease-in;
+    animation: sbob 8s infinite ease-in;
   }
-  
   .water {
     position: absolute;
     top: 50%;
@@ -31,7 +30,6 @@
     background: rgba(122,186,224,1); 
     z-index: 5;
   }
-  
   .eye-left {
     position: absolute;
     width: 7%;
@@ -41,7 +39,6 @@
     border-radius: 50%;
     background: #27354A;
   }
-  
   .eye-right {
     position: absolute;
     width: 7%;
@@ -51,7 +48,6 @@
     border-radius: 50%;
     background: #27354A;
   }
-  
   .cheek-left {
     position: absolute;
     width: 22%;
@@ -72,7 +68,7 @@
     background: rgba(122,186,224,1);
     z-index: 2;
   }
-  .nose {
+  .snose {
     position: absolute;
     width: 12%;
     height: 6%;
@@ -113,7 +109,6 @@
     border-radius: 30%;
     z-index: 4;
   }
-  
   .whiskers-left-3 {
     position: absolute;
     width: 75%;
@@ -136,7 +131,6 @@
     transform: rotate(-15deg);
     z-index: 4;
   }
-  
   .whiskers-right-2 {
     position: absolute;
     width: 75%;
@@ -147,7 +141,6 @@
     border-radius: 30%;
     z-index: 4;
   }
-  
   .whiskers-right-3 {
     position: absolute;
     width: 75%;
@@ -159,9 +152,7 @@
     transform: rotate(15deg);
     z-index: 4;
   }
-  
-  
-  @keyframes bob {  
+  @keyframes sbob {  
     0% {
           transform: translateY(0%);
       }
