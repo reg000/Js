@@ -4,7 +4,7 @@
     height: 90%;
     top: 50%;
     left: 50%;
-    background-color: rgba(250, 240, 230, 0.95);
+    background-color: rgba(225, 235, 190, 0.95);
     font-family: "Times New Roman", Times, serif;
     font-size: 24px;
     padding: 10px;
@@ -19,22 +19,25 @@
 }
 
 .letter4 .date {
+  position: relative;
     font-style: italic;
     font-size: large;
     position: absolute;
-    bottom: 5%;
-    right: 6%;
+    bottom: 2%;
+    right: 5%;
 }
 
 .letter4 .sender {
+  position: relative;
     font-style: italic;
     font-size: larger;
     position: absolute;
-    top: 5%;
-    left: 10%;
+    top: 2%;
+    left: 7%;
 }
 
 .letter4 .letter4-exit button {
-    bottom: 5%;
-    right: 10%;
+  position: absolute;
+    top: 2.5%;
+    right: 2.5%;
 }

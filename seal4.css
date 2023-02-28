@@ -1,0 +1,13 @@
+.letter4 .seal4 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12%;
+    left: 12%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
